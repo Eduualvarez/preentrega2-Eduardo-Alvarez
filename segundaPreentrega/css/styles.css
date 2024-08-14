@@ -1,0 +1,114 @@
+*
+    {
+        margin: 0%;
+        padding: 0%;
+    }
+.container
+{
+    background: rgb(190, 189, 189);
+    height: 100dvh;
+    width: auto;
+    display:grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 10% 75% 13%;
+    grid-template-areas: 'a'
+                         'b'
+                          'c' ;
+
+   row-gap: 1%;         
+   
+}
+header
+{
+    grid-area: a;
+}
+main
+{
+    grid-area:b;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a
+    {  color:black;
+      text-decoration: none;
+      font-size: 20px;
+
+    }
+
+a:hover{color:rgb(165, 108, 108)}     
+.navBar
+{
+   
+    background-color: beige;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+   
+}
+ul
+{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    
+    
+
+}
+
+li
+{
+ padding-right: 20px;
+}
+.inputContainer
+{
+    width: 100%;
+    height: 85%;
+    background-color: rgb(165, 108, 108);
+    display: flex;
+   justify-content: center;
+    align-items: center;
+   
+
+}
+
+section
+{
+
+   padding-top:40px;
+    text-align: center;
+    height:70%;
+    width:40%;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 7px;
+   
+    
+}
+input[type="text"]
+{
+   margin-top: 50px;
+    width:150px;
+    height:25px;
+    border: 3px solid black;
+    font-size: 15px;
+}
+input[type="button"]
+{
+    margin-left: 10px;
+    width:50px;
+    height:25px;
+    border: 3px solid black;
+}
+input[type="button"]:hover
+{
+    background-color: rgb(124, 124, 124);
+}
+footer
+{
+    background-color: beige;
+}
